@@ -7,7 +7,7 @@ Description: Shagun Jhaver is in the news
 
 
 
-* 1 Oct 19: I won a Best Paper Award AND an Honorable Mention Award at CSCW! Excited to present these papers at CSCW.
+* 1 Oct 19: I won a Best Paper Award AND an Honorable Mention Award at CSCW! Excited to present these papers (and a [TOCHI paper](/research/jhaver-2019-automod/) on Reddit Automod) at CSCW in Austin next month.
 * 25 Aug 19: My research on fairness and transparency in content moderation on Reddit got covered by [New Scientist](https://www.newscientist.com/article/2214308-explaining-why-reddit-posts-are-removed-helps-people-comply-with-rules/).
-* 15 Aug 19: I am co-leading a workshop titled ["Volunteer Work: Mapping the Future of Moderation Research"](https://sites.google.com/view/cscw2019modworkshop) at CSCW. Join us!
+* 15 Aug 19: I am co-leading a workshop titled ["Volunteer Work: Mapping the Future of Moderation Research"](https://sites.google.com/view/cscw2019modworkshop) at CSCW. Join us to set an agenda for future research in this space!
 
