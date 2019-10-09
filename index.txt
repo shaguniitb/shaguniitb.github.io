@@ -1,0 +1,20 @@
+---
+Title: Welcome to My Site
+Date: 2019-06-26
+save_as: index.html
+Template: home
+main_photo: /files/images/photos/beach.JPG
+---
+
+I am a PhD candidate studying Computer Science at [Georgia Tech](https://www.gatech.edu) in the [School of Interactive Computing](https://ic.gatech.edu). My advisors are Dr. Amy Bruckman and Dr. Eric Gilbert, and I am a member of the ELC Lab and comp.social Lab. 
+
+My research aims to inform the design of efficient and equitable content moderation systems. I have studied online harassment, moderation mechanisms and human-computer collaboration for content regulation on social media websites like Twitter and Reddit. My current work explores the tradeoffs of implementing transparency in content moderation systems.
+
+Previously, I have done research internships at [Microsoft Research](https://www.microsoft.com/en-us/research/), [Airbnb](https://careers.airbnb.com/?department=design#jobs) and [Inria](https://www.inria.fr/en/centre/paris). I have also worked as a software developer at [Amazon](https://www.amazon.com) and [Future Group](https://www.futuregroup.in). I am an alum of the [Big Data Analytics and Management Lab](https://personal.utdallas.edu/~lkhan/BigDataLab.html) at [UT Dallas](https://www.utdallas.edu) led by [Dr. Latifur Khan](https://personal.utdallas.edu/~lkhan/); and I obtained my B. Tech. from [Indian Institute of Technology](http://www.iitb.ac.in) (IIT Bombay).
+
+
+
+## I am on the academic job market!
+
+I’m looking for a job! I’d love to hear if you think I would be a good fit for your search! 
+

@@ -1,0 +1,43 @@
+---
+Title: "The view from the other side: The border between controversial speech and harassment on Kotaku in Action"
+Date: 2018-06-06
+Category: Article
+Slug: research/jhaver-2018-kia
+Template: research_project
+ungated: https://firstmonday.org/ojs/index.php/fm/article/view/8232
+Thumb: /files/images/research/jhaver-2018-kia.png
+Details: >-
+  **Shagun Jhaver**, Larry Chan and Amy Bruckman (2018) *“The view from the other side: The border between controversial speech and harassment on Kotaku in Action,”* First Monday, doi: [`10.5210/fm.v23i2.8232`](https://doi.org/10.5210/fm.v23i2.8232)
+
+---
+
+[TOC]
+
+---
+
+## Important links
+
+- [First  Monday Link](https://firstmonday.org/ojs/index.php/fm/article/view/8232)
+- [Arxiv Link to the Previous Version of the Paper](https://arxiv.org/abs/1712.05851)
+
+
+## Abstract
+
+In this paper, we use mixed methods to study a controversial Internet site: The Kotaku in Action (KiA) subreddit. Members of KiA are part of GamerGate, a distributed social movement. We present an emic account of what takes place on KiA: who are they, what are their goals and beliefs, and what rules do they follow. Members of GamerGate in general and KiA in particular have often been accused of harassment. However, KiA site policies explicitly prohibit such behavior, and members insist that they have been falsely accused. Underlying the controversy over whether KiA supports harassment is a complex disagreement about what “harassment” is, and where to draw the line between freedom of expression and censorship. We propose a model that characterizes perceptions of controversial speech, dividing it into four categories: criticism, insult, public shaming, and harassment. We also discuss design solutions that address the challenges of moderating harassment without impinging on free speech, and communicating across different ideologies.
+
+
+## BibTeX citation
+
+```bibtex
+@article{Jhaver:2018kia,
+		author={Jhaver, Shagun and Chan, Larry and Bruckman, Amy},
+		title={The view from the other side: The border between controversial speech and harassment on Kotaku in Action},
+		journal={First Monday},
+		volume={23},
+		number={2},
+		year={2018},
+    url = {https://doi.org/10.5210/fm.v23i2.8232},
+    doi = {10.5210/fm.v23i2.8232}
+    }
+```
+

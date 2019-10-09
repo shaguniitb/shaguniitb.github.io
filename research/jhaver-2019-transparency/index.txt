@@ -1,0 +1,47 @@
+---
+Title: "Does Transparency in Moderation Really Matter?: User Behavior After Content Removal Explanations on Reddit"
+authorshere: "Shagun Jhaver, Amy Bruckman, Eric Gilbert"
+venue: "CSCW 2019"
+Date: 2019-06-11
+Category: Article
+Slug: research/jhaver-2019-transparency
+Template: research_project
+pdf: /files/research/jhaver-2019-transparency.pdf
+Thumb: /files/images/research/jhaver-2019-transparency.png
+Pub_Status: Best paper
+medium: https://medium.com/acm-cscw/does-transparency-in-moderation-really-matter-b86bab9b4810
+Details: >-
+  **Shagun Jhaver**, Amy Bruckman, and Eric Gilbert, *“Does Transparency in Moderation Really Matter?: User Behavior After Content Removal Explanations on Reddit,”* In Proceedings of the ACM Human-Computer Interaction (CSCW 2019) (forthcoming), doi: [`10.1145/3359252`](https://doi.org/10.1145/3359252)
+Extra: >-
+  PRESS: [New Scientist](https://www.newscientist.com/article/2214308-explaining-why-reddit-posts-are-removed-helps-people-comply-with-rules/)
+---
+
+[TOC]
+
+---
+
+## Important links
+
+- [Paper (preprint)](/files/research/jhaver-2019-transparency.pdf)
+- [Medium Blog that summarizes this paper](https://medium.com/acm-cscw/does-transparency-in-moderation-really-matter-b86bab9b4810)
+
+
+## Abstract
+
+When posts are removed on a social media platform, users may or may not receive an explanation. What kinds of explanations are provided? Do those explanations matter? Using a sample of 32 million Reddit posts, we characterize the removal explanations that are provided to Redditors, and link them to measures of subsequent user behaviors—including future post submissions and future post removals. Adopting a topic modeling approach, we show that removal explanations often provide information that educate users about the social norms of the community, thereby (theoretically) preparing them to become a productive member. We build regression models that show evidence of removal explanations playing a role in future user activity. Most importantly, we show that offering explanations for content moderation reduces the odds of future post removals. Additionally, explanations provided by human moderators did not have a significant advantage over explanations provided by bots for reducing future post removals. We propose design solutions that can promote the efficient use of explanation mechanisms, reflecting on how automated moderation tools can contribute to this space. Overall, our findings suggest that removal explanations may be under-utilized in moderation practices, and it is potentially worthwhile for community managers to invest time and resources into providing them.
+
+## BibTeX citation
+
+```bibtex
+@article{Jhaver:2019Transparency,
+    author = {Jhaver, Shagun and Bruckman, Amy and Gilbert, Eric},
+    title = {Does Transparency in Moderation Really Matter?: User Behavior After Content Removal Explanations on Reddit},
+    journal = {Proc. ACM Hum.-Comput. Interact.},
+    year = {2019},
+    volume = {3},
+    articleno = {150},
+    url = {https://doi.org/10.1145/3359252},
+    doi = {10.1145/3359252},
+    publisher = {ACM},
+    }
+```

@@ -1,0 +1,987 @@
+/* @override 
+	http://ath-pelican/css/layouts/ath-pelican.css
+	http://127.0.0.1/ath-pelican/css/layouts/ath-pelican.css
+	http://localhost:8000/theme/css/ath-pelican.css */
+	
+/* @group Page structure */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#layout {
+    padding: 0;
+}
+
+/* @end */
+	
+/* @group Global styles */
+
+/*
+    When setting the primary font stack, apply it to the Pure grid units along
+    with `html`, `button`, `input`, `select`, and `textarea`. Pure Grids use
+    specific font stacks to ensure the greatest OS/browser compatibility.
+    */
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: "lato", 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+.pure-g {
+  display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #ab8320;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+pre, code {
+	font-family: "Consolas", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New";
+	background-color: rgb(245, 245, 245);
+	line-height: 1.5em;
+	font-size: 0.8em;
+	padding: 0.3em;
+}
+
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.pure-img-responsive-50 {
+    max-width: 50%;
+    height: auto;
+}
+
+.pure-img-responsive-75 {
+    max-width: 75%;
+    height: auto;
+}
+
+.screen-reader-text {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+/* @group Typogrify */
+
+.caps {
+	font-size: 0.92em;
+}
+
+.amp {
+	/*font-family: "adriane";*/
+	/*font-style: italic;*/
+}
+
+.dquo {
+	margin-left: -0.4em;
+}
+
+.quo {
+	margin-left: -0.3em;
+}
+
+.small {
+    font-size: 0.8em;
+}
+
+/* @end */
+
+/* @end */
+
+
+/* @group Content area */
+
+.content {
+	color: rgb(65, 65, 65);
+}
+
+.content .post-meta {
+	font: 1em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+.content header h1 {
+	margin: 0 0 0.8em;
+}
+
+.content header .post-meta {
+	margin: 0 0 0.9em;
+	color: rgb(140, 140, 140);
+}
+
+/* Custom heading spacing in content areas */
+.content h1 {
+	font-size: 2.2em;
+	line-height: 1.2em;
+	margin-top: 0;
+}
+
+.content h2 {
+	margin-bottom: 0.2em;
+	padding-top: .5em;
+}
+
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+	margin-bottom: 0.2em;
+	padding-top: 0;
+}
+
+.content p,
+.content li,
+.content .class-list {
+	font: 1.1em/1.5em "adriane";
+}
+
+.content li p,
+.content li li {
+	font-size: 1em;
+}
+
+/* Add fake padding between rows with an invisible border */
+.content .class-list tr {
+    border-bottom: 1em solid transparent;
+}
+
+/* The table seems to inherit some sort of vertical margin from somewhere, so 
+   add some negative space to counter it*/
+.class-list table {
+    margin: -0.5em 0;
+}
+
+/* Give the first column a set width */
+.class-list tr td:first-child {
+    width: 65px;
+    vertical-align: text-top;
+}
+
+.class-list tr td:first-child img {
+    width: 50px;
+}
+
+/* Correctly handle elements after headings */
+.content h2 + p, 
+.content h3 + p, .content h4 + p, 
+.content h5 + p, .content h6 + p, 
+.content h2 + ol,
+.content h3 + ol, .content h4 + ol,
+.content h5 + ol, .content h6 + ol,
+.content h2 + ul, 
+.content h3 + ul, .content h4 + ul, 
+.content h5 + ul, .content h6 + ul {
+	margin-top: 0;
+}
+
+/* Modify pure table defaults */
+.content .pure-table {
+	margin: 1em 0;
+}
+
+.content .pure-table thead {
+	color: rgb(65, 65, 65);
+}
+
+.content blockquote {
+	border-left: solid 5px rgb(140, 140, 140);
+	padding-left: 1em;
+	margin-left: 1em;
+	margin-right: 0;
+	color: rgb(140, 140, 140);
+	font-size: 0.9em;
+}
+
+/* @group Content footer */
+
+.content footer {
+	margin: 2em 0;
+	font-size: 0.8em;
+	background-color: rgb(235, 235, 235);
+	padding: 0.5em 1em;
+	border-top: 5px solid #ab8320;
+}
+
+.content footer p,
+.content footer li {
+	font-family: "lato", 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+.content footer .post-md {
+	text-align: right;
+}
+
+.taxonomy {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.taxonomy li {
+	display: inline-block;
+	background: #ab8320;
+	color: rgb(255, 255, 255);
+	padding: 0.1em 0.4em;
+	margin: 0 0.2em 0.5em 0;
+	white-space: nowrap;
+	font-size: 1em;
+}
+
+.list.taxonomy li {
+	font: 0.8em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+.list.taxonomy .count {
+	font-size: 0.5em;
+}
+
+.taxonomy .post-category {
+	background: rgb(65, 65, 65);
+}
+
+.taxonomy a {
+	color: rgb(255, 255, 255);
+}
+
+.taxonomy a:hover,
+.taxonomy a:focus {
+	color: rgb(175, 175, 175);
+	text-decoration: none;
+}
+
+/* @end */
+
+/* @group Footnotes */
+
+.content .footnote {
+	font-size: .8em;
+}
+
+.content .footnote li p {
+	margin: 0 0 0.5em;
+}
+
+.bigfoot-footnote__content p {
+	font: 0.9em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif;
+	color: rgb(65, 65, 65);
+}
+
+.bigfoot-footnote__button:after {
+	color: rgb(65, 65, 65) !important;
+}
+
+/* @end */
+
+/* @group Messages */
+
+.confirmation {
+	padding: 0.5em 0.5em 0.5em 2em;
+	position: relative;
+	font: 1em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif !important;
+}
+
+.confirmation:before {
+	position: absolute;
+	font-family: FontAwesome;
+	top: 0.75em;
+	left: 0.5em;
+}
+
+.confirmation.warning {
+	background: #fffeeb;
+	border: 1px solid #e6e5d8;
+	color: #555;
+}
+
+.confirmation.warning:before {
+    content: "\f071";
+    color: #cbc302;
+}
+
+.confirmation.accept {
+	background: #e5f7e3 url(images/check.gif) no-repeat 7px 10px;
+	border: 1px solid #c5e1c8;
+	color: #005e20;
+}
+
+.confirmation.accept:before {
+    content: "\f00c";
+}
+
+.confirmation.error {
+	background: #ffebeb url(images/x.gif) no-repeat 7px 10px;
+	border: 1px solid #f5c1c2;
+	color: #9e0b0f;
+}
+
+.confirmation.error:before {
+    content: "\f00d";
+}
+
+.confirmation.question {
+	background: #e8f8fe url(images/question.gif) no-repeat 7px 10px;
+	border: 1px solid #cfdfe5;
+	color: #004a80;
+}
+
+.confirmation.question:before {
+    content: "\f059";
+}
+
+/* @end */
+
+/* @group Home page */
+
+.home-blurb {
+	font-size: 1.1em;
+}
+
+.home-blurb p:first-child {
+	margin-top: 0em;
+}
+
+.home-image {
+    padding-right: 2em;
+}
+
+.home-extra h2 {
+	font-size: 1.9em;
+	margin-top: 0;
+}
+
+.blog-excerpt {
+	padding-right: 2em;
+}
+
+.blog-excerpt p {
+	margin-bottom: 0em;
+}
+
+#twitter ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+#loading p {
+	padding: 0;
+	margin-top: 0;
+}
+
+#twitter li {
+	padding-bottom: 1em;
+}
+
+.twitter_timestamp {
+	font: 0.9em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif;
+	display: block;
+}
+
+/* @end */
+
+/* @group /now page */
+
+#littlelog-wrapper {
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top:  1px solid rgb(140, 140, 140);
+}
+
+#littlelog {
+    font-size: 0.8em;
+}
+
+#littlelog > ul {
+    padding-left: 0;
+}
+
+#littlelog > ul > li {
+    list-style-type: none;
+}
+
+#littlelog img {
+    max-width: 50%;
+    height: auto;
+}
+
+#littlelog .littlelog-entry {
+    margin-top: 1.5em;
+    padding-top: 1.5em;
+    background-color: rgb(235, 235, 235);
+    padding: 0.5em;
+    margin: -0.5em 0em 2em;
+    border-left: 5px solid #ab8320;
+}
+
+#littlelog .littlelog-entry,
+#littlelog .littlelog-entry p {
+    font: 1em/1.4em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+#littlelog .littlelog-entry p {
+    margin: 0.5em 0;
+}
+
+#littlelog .littlelog-meta {
+    font-size: 0.8em;
+    color: rgb(140, 140, 140);
+}
+
+#littlelog .littlelog-meta a {
+    color: rgb(140, 140, 140);
+}
+
+#littlelog-wrapper .littlelog-more-wrapper {
+    text-align: center;
+}
+
+#littlelog-wrapper .littlelog-more {
+    font: 1em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif !important;
+    display: inline-block;
+    background: #ab8320;
+    color: rgb(255, 255, 255);
+    padding: 0.1em 0.4em;
+    margin: 0;
+}
+
+#littlelog-wrapper .littlelog-more a {
+    color: rgb(255, 255, 255);
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Blog list styles */
+
+#content-list,
+.archive-list {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+#content-list h2,
+.archive-list h3 {
+	font-family: "lato", 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+#content-list h2 {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+#content-list .post-meta {
+	margin: 3em 0 0.3em;
+	font-size: 0.9em;
+}
+
+#content-list li:first-child .post-meta {
+	margin-top: 0em;
+}
+
+.archive-list h3 {
+	margin-top: 0;
+}
+
+.archive-list .post-meta {
+	margin-bottom: 0;
+	font-size: 0.9em;
+}
+
+.content .archive-list li:first-child p {
+	margin-top: 0;
+}
+
+.archive-link {
+	margin-top: 2em;
+	font-weight: bold !important;
+}
+
+/* @end */
+
+/* @group Publication list styles */
+
+.publication-list,
+.publication-links,
+.publication-status,
+.publication-toc,
+.toc ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.publication-toc li,
+.toc li {
+	font: 1em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif !important;
+	display: inline-block;
+	background: #ab8320;
+	color: rgb(255, 255, 255);
+	padding: 0.1em 0.4em;
+	margin: 0 0.2em 0.5em 0;
+	white-space: nowrap;
+}
+
+.publication-toc a,
+.toc a {
+	color: rgb(255, 255, 255);
+}
+
+.publication-toc a:hover,
+.publication-toc a:focus,
+.toc a:hover,
+.toc a:focus {
+	color: rgb(175, 175, 175);
+	text-decoration: none;
+}
+
+.publication-details {
+	background-color: rgb(235, 235, 235);
+	padding: 0.5em;
+	margin: -0.5em 0em 2em;
+	border-left: 5px solid #ab8320;
+}
+
+.publication-list li:last-child .publication-details {
+	margin-bottom: 2.5em;
+}
+
+.publication-details p,
+.publication-details li {
+	font: 0.8em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif !important;
+}
+
+.publication-details p {
+	margin: 0 0 0.5em;
+}
+
+.publication-links,
+.publication-status {
+	margin: 0;
+}
+
+.publication-links li,
+.publication-status li {
+	display: inline;
+	padding-right: 10px;
+	white-space: nowrap;
+}
+
+.publication-status {
+    margin-bottom: 0.5em;
+}
+
+li.project-info {
+    padding: 3px 6px;
+    background-color: #ab8320;
+    margin-right: 1em;
+}
+
+li.project-info a {
+    color: white;
+}
+
+li.best-paper {
+    padding: 3px 6px;
+    background-color: #33DD71;
+    margin-right: 1em;
+    color: white;
+    font-size:18px;
+}
+
+li.honorable-mention {
+    padding: 3px 6px;
+    background-color: #33DD71;
+    margin-right: 1em;
+    color: white;
+}
+
+li.press {
+    padding: 3px 6px;
+    background-color: #33DD71;
+    margin-right: 1em;
+    color: white;
+}
+
+li.project-under-review {
+    padding: 3px 6px;
+    background-color: #44A2F4;
+    margin-right: 1em;
+    color: white;
+}
+
+li.project-revising {
+    padding: 3px 6px;
+    background-color: #44A2F4;
+    margin-right: 1em;
+    color: white;
+}
+
+.back-to-top {
+	font-size: 0.6em;
+}
+
+/* @end */
+
+/* @group Design styles */
+
+.pseudo-navigation {
+	font: 1em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif !important;
+	margin-top: 0;
+}
+
+.project-list {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.project-list li {
+	margin-bottom: 1em;
+}
+
+.project-list img, .publication-list img {
+	width: 100%;
+	height: auto;
+}
+
+.publication-list .project-thumb {
+    margin-top: 1em;
+    padding-right: 1em;
+}
+
+.project-thumb img {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.project-list .project-details {
+	padding-left: 1em;
+}
+
+.project-details h3 {
+	margin-top: 0;
+}
+
+.project-title,
+.project-meta {
+	font-family: "lato", 'Lucida Grande', Helvetica, Arial, sans-serif !important;
+}
+
+.project-meta {
+	font-size: 0.9em !important;
+	margin: 0;
+}
+
+.project .project-meta ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.project .project-meta li {
+	font: 1em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif;
+	display: inline-block;
+	padding-right: 1em;
+}
+
+.design .project-content ul:first-of-type:before {
+	content: "Quick summary";
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-left: -1.5em;
+}
+
+.design .project-content ul:first-of-type {
+	margin: 2em 0;
+	background-color: rgb(235, 235, 235);
+	padding: 0.5em 1em 0.5em 2.5em;
+	border-top: 5px solid #ab8320;
+	font-size: 0.9em;
+}
+
+.design .project-content ul:first-of-type li {
+	font-family: "lato", 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+
+/* @end */
+
+/* @group Sidebar */
+
+.sidebar {
+    color: #fff;
+    /*text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);*/
+    /** To edit this background, follow this link:
+    http://svgeneration.com/generate/GPlay?height=4&width=4&background=25365f&overlay=32477d&weight=10&padding=0.25&
+    */
+    background-color: #25365f;
+	background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nMjU1JyBoZWlnaHQ9JzEzNScgdmlld0JveD0nMCAwIDUxIDI3Jz4KCTxkZWZzPgoJCTxwYXRoIGlkPSdzJyBmaWxsPScjMzI0NzdkJyBkPSdNMCwwbDQgMmwtNCwyeicvPgoJPC9kZWZzPgoJPGcgaWQ9J2InPgoJPHVzZSB4PSctNCcgeT0nLTInIHRyYW5zZm9ybT0nbWF0cml4KC0xIDAgMCAxIDAgMCknIGZpbGwtb3BhY2l0eT0nMC4yJyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nMCcgeT0nMC4yNScgZmlsbC1vcGFjaXR5PScwLjMnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSctNCcgeT0nMi41JyB0cmFuc2Zvcm09J21hdHJpeCgtMSAwIDAgMSAwIDApJyBmaWxsLW9wYWNpdHk9JzAuMycgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzAnIHk9JzQuNzUnIGZpbGwtb3BhY2l0eT0nMC4zJyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nLTQnIHk9JzcnIHRyYW5zZm9ybT0nbWF0cml4KC0xIDAgMCAxIDAgMCknIGZpbGwtb3BhY2l0eT0nMC40JyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nMCcgeT0nOS4yNScgZmlsbC1vcGFjaXR5PScwLjInIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSctNCcgeT0nMTEuNScgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIDEgMCAwKScgZmlsbC1vcGFjaXR5PScwLjInIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSc0LjI1JyB5PSctMicgZmlsbC1vcGFjaXR5PScwLjMnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSctOC4yNScgeT0nMC4yNScgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIDEgMCAwKScgZmlsbC1vcGFjaXR5PScwLjQnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSc0LjI1JyB5PScyLjUnIGZpbGwtb3BhY2l0eT0nMC4zJyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nLTguMjUnIHk9JzQuNzUnIHRyYW5zZm9ybT0nbWF0cml4KC0xIDAgMCAxIDAgMCknIGZpbGwtb3BhY2l0eT0nMC4yJyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nNC4yNScgeT0nNycgZmlsbC1vcGFjaXR5PScwLjEnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSctOC4yNScgeT0nOS4yNScgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIDEgMCAwKScgZmlsbC1vcGFjaXR5PScwLjInIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSc0LjI1JyB5PScxMS41JyBmaWxsLW9wYWNpdHk9JzAuMycgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9Jy0xMi41JyB5PSctMicgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIDEgMCAwKScgZmlsbC1vcGFjaXR5PScwLjInIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSc4LjUnIHk9JzAuMjUnIGZpbGwtb3BhY2l0eT0nMC4yJyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nLTEyLjUnIHk9JzIuNScgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIDEgMCAwKScgZmlsbC1vcGFjaXR5PScwLjMnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSc4LjUnIHk9JzQuNzUnIGZpbGwtb3BhY2l0eT0nMC4yJyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nLTEyLjUnIHk9JzcnIHRyYW5zZm9ybT0nbWF0cml4KC0xIDAgMCAxIDAgMCknIGZpbGwtb3BhY2l0eT0nMC4xJyB4bGluazpocmVmPScjcycgLz4JCgk8dXNlIHg9JzguNScgeT0nOS4yNScgZmlsbC1vcGFjaXR5PScwLjInIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSctMTIuNScgeT0nMTEuNScgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIDEgMCAwKScgZmlsbC1vcGFjaXR5PScwLjInIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PScxMi43NScgeT0nLTInIGZpbGwtb3BhY2l0eT0nMC4yJyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nLTE2Ljc1JyB5PScwLjI1JyB0cmFuc2Zvcm09J21hdHJpeCgtMSAwIDAgMSAwIDApJyBmaWxsLW9wYWNpdHk9JzAuMicgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzEyLjc1JyB5PScyLjUnIGZpbGwtb3BhY2l0eT0nMC4xJyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nLTE2Ljc1JyB5PSc0Ljc1JyB0cmFuc2Zvcm09J21hdHJpeCgtMSAwIDAgMSAwIDApJyBmaWxsLW9wYWNpdHk9JzAuMycgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzEyLjc1JyB5PSc3JyBmaWxsLW9wYWNpdHk9JzAuMycgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9Jy0xNi43NScgeT0nOS4yNScgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIDEgMCAwKScgZmlsbC1vcGFjaXR5PScwLjEnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PScxMi43NScgeT0nMTEuNScgZmlsbC1vcGFjaXR5PScwLjInIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSctMjEnIHk9Jy0yJyB0cmFuc2Zvcm09J21hdHJpeCgtMSAwIDAgMSAwIDApJyBmaWxsLW9wYWNpdHk9JzAuMycgeGxpbms6aHJlZj0nI3MnIC8+CQoJPHVzZSB4PScxNycgeT0nMC4yNScgZmlsbC1vcGFjaXR5PScwLjQnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSctMjEnIHk9JzIuNScgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIDEgMCAwKScgZmlsbC1vcGFjaXR5PScwLjEnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PScxNycgeT0nNC43NScgZmlsbC1vcGFjaXR5PScwLjInIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSctMjEnIHk9JzcnIHRyYW5zZm9ybT0nbWF0cml4KC0xIDAgMCAxIDAgMCknIGZpbGwtb3BhY2l0eT0nMC4zJyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nMTcnIHk9JzkuMjUnIGZpbGwtb3BhY2l0eT0nMC4xJyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nLTIxJyB5PScxMS41JyB0cmFuc2Zvcm09J21hdHJpeCgtMSAwIDAgMSAwIDApJyBmaWxsLW9wYWNpdHk9JzAuMycgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzIxLjI1JyB5PSctMicgZmlsbC1vcGFjaXR5PScwLjInIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSctMjUuMjUnIHk9JzAuMjUnIHRyYW5zZm9ybT0nbWF0cml4KC0xIDAgMCAxIDAgMCknIGZpbGwtb3BhY2l0eT0nMC4yJyB4bGluazpocmVmPScjcycgLz4JCgk8dXNlIHg9JzIxLjI1JyB5PScyLjUnIGZpbGwtb3BhY2l0eT0nMC40JyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nLTI1LjI1JyB5PSc0Ljc1JyB0cmFuc2Zvcm09J21hdHJpeCgtMSAwIDAgMSAwIDApJyBmaWxsLW9wYWNpdHk9JzAuMicgeGxpbms6aHJlZj0nI3MnIC8+CQoJPHVzZSB4PScyMS4yNScgeT0nNycgZmlsbC1vcGFjaXR5PScwLjMnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSctMjUuMjUnIHk9JzkuMjUnIHRyYW5zZm9ybT0nbWF0cml4KC0xIDAgMCAxIDAgMCknIGZpbGwtb3BhY2l0eT0nMC4yJyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nMjEuMjUnIHk9JzExLjUnIGZpbGwtb3BhY2l0eT0nMC4yJyB4bGluazpocmVmPScjcycgLz4KCTwvZz4KCTx1c2UgeD0nLTI1LjI1JyB5PScxMy41JyB0cmFuc2Zvcm09J21hdHJpeCgtMSAwIDAgMSAwIDApJyB4bGluazpocmVmPScjYicgLz4KCTx1c2UgeD0nLTUwLjc1JyB5PSctOScgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIC0xIDAgMCknIHhsaW5rOmhyZWY9JyNiJyAvPgoJPHVzZSB4PScyNS41JyB5PSctMTgnIHRyYW5zZm9ybT0nbWF0cml4KDEgMCAwIC0xIDAgMCknIHhsaW5rOmhyZWY9JyNiJyAvPgoJPHVzZSB4PScyNS41JyB5PSctMzEuNScgdHJhbnNmb3JtPSdtYXRyaXgoMSAwIDAgLTEgMCAwKScgeGxpbms6aHJlZj0nI2InIC8+Cjwvc3ZnPgo=');
+}
+
+.sidebar header {
+    top: auto;
+    margin: 2em 0.8em;
+	text-align: left;
+}
+
+.sidebar h1 {
+	font-size: 2.2em;
+	line-height: 1.2em;
+	margin-bottom: 0.2em;
+}
+
+.sidebar h2 {
+	margin-top: 0;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.sidebar .school {
+	font-size: 1.4em;
+}
+
+.sidebar .minibio {
+	font-size: 1em;
+	color: rgb(175, 175, 175);
+}
+
+.sidebar a {
+	color: #fff;
+}
+
+.sidebar a:hover,
+.sidebar a:focus {
+	color: #ab8320;
+    text-decoration: none;
+}
+
+.sidebar nav {
+	margin-top: 2em;
+}
+
+.sidebar nav ul {
+	padding-left: 0;
+}
+
+
+.sidebar nav li {
+	display: inline;
+	white-space: nowrap;
+	font-size: 1.1em;
+}
+
+.sidebar nav li:after {
+	margin: 0 0.5em;
+	content: "•";
+	color: rgb(175, 175, 175);
+	font-size: .8em;
+}
+
+.sidebar nav li:last-child:after {
+	content: "";
+	margin: 0;
+}
+
+/* @end */
+
+/* @group Footer */
+
+.footer footer {
+	background: rgba(0,0,0,0.3) none;
+	padding: .8em;
+	color: rgb(175, 175, 175);
+}
+
+.footer a {
+	color: #fff;
+}
+
+.footer a:hover,
+.footer a:focus {
+	color: #ab8320;
+    text-decoration: none;
+}
+
+.footer footer ul {
+	padding-left: 0;
+	margin: 0.5em 0 1.5em;
+	list-style: none;
+}
+
+.footer footer li {
+	display: inline-block;
+	padding: 0 0 0 0;
+	margin-right: 0.5em;
+	line-height: 1.6em;
+}
+
+.footer .copy {
+	font-size: 0.9em;
+	margin-bottom: 0;
+}
+
+.footer .copy a {
+	color: rgb(175, 175, 175);
+}
+
+.footer .copy .cc-year {
+	position: relative;
+	bottom: 2.5px;
+}
+
+.colophon,
+.pgp {
+	font-size: 0.7em;
+	margin-bottom: 0;
+}
+
+/* @end */
+
+/* @group @media queries */
+
+/* TODO: Weird things happen at width=769px, like the sidebar text is centered, but is laid out on the left. All is well at 768 and 770--just this weird liminal space that nobody is ever going to hit. This weird space used to happen at 768, though, which is the iPad portrait width, so I changed all 48ems in @media queries to 48.1, here and in grids-responsive-min.css*/
+
+/* Put footer in bottom left corner if screen is wide and tall enough */
+@media (min-height: 500px) and (min-width: 48.1em) {
+	.footer {
+		position: fixed;
+		bottom: 0;
+		width:25%; *width:24.969%;
+		max-width: 300px;
+		z-index: 1;
+	}
+	
+}
+
+/* Put footer at the bottom of the content area if screen is wide enough but too short */
+@media (max-height: 500px) and (min-width: 48.1em) {
+	.footer {
+		width: 75%;
+		text-align: center;
+		float: right;
+	}
+	
+	.footer footer {
+		background: rgba(0,0,0,0.8) none;
+		font-size: 1.05em;
+	}
+}
+
+/* Put footer at the bottom of the page at full width if the screen is skinny */
+@media (max-width: 48.1em) {
+	.footer {
+		text-align: center;
+	}
+	
+	.footer footer {
+		background: rgba(0,0,0,0.8) none;
+		font-size: 1.2em;
+	}
+}
+
+/* Non-phone and tablet layout */
+@media (min-width: 48.1em) {
+    .content {
+        padding: 2em 3em;
+        margin-left: 25%;
+        max-width: 55em;
+		z-index: 5;
+	}
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        max-width: 300px;
+		z-index: 1;
+	}
+}
+
+/* Non-phone and tablet layout wider than 1200px */
+/* This is necessary because .sidebar has a max-width of 300px above, which is fine until the sidebar starts trying to be wider—then the left margin in .content gets wider and wider and wider. So, when the width of more than 1200px (which is the screen width where 25% starts to be greater than 300px), I specify that .content has a left margin of exactly 300px */
+@media (min-width: 1200px) {
+    .content {
+        margin-left: 300px;
+    }
+}
+
+/* Phone and tablet layout */
+@media (max-width: 48.1em) {
+    .content {
+        padding: 2em 1.5em;
+	}
+	
+	.home-image {
+	    display: none;
+	}
+
+    .sidebar header {
+        text-align: center;
+    }
+    
+    .sidebar h1 {
+    	font-size: 2.8em;
+    	line-height: 1.1em;
+    	margin-bottom: 0.2em;
+    }
+    
+    .sidebar h2 {
+    	margin-bottom: 0;
+    }
+    
+    .sidebar .minibio {
+    	font-size: 1.4em;
+    }
+    
+    .sidebar nav {
+    	margin-top: 1.5em;
+    }
+    
+    .home-extra {
+    	text-align: center;
+    }
+    
+    .home-extra .blog-excerpt,
+    .home-extra .twitter-excerpt {
+    	padding: 0 5%;
+    }
+    
+    .home-extra .twitter-excerpt {
+    	margin-top: 1.5em;
+    }
+
+    .pure-img-responsive-50 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .pure-img-responsive-75 {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Phone layout */
+@media (max-width: 480px) {
+    .project-thumb {
+        display: none;
+    }
+
+    .project-details {
+        width: 100%;
+    }
+}
+
+/* @end */

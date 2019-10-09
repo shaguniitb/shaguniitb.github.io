@@ -1,0 +1,42 @@
+---
+Title: "Learning to Airbnb by Engaging in Online Communities ofPractice"
+Date: 2018-08-01
+Category: Article
+Slug: research/chandrasekharan-2018-norms
+Template: research_project
+pdf: /files/research/chandrasekharan-2018-norms.pdf
+Thumb: /files/images/research/chandrasekharan-2018-norms.png
+Details: >-
+  Eshwar Chandrasekharan, Mattia Samory, **Shagun Jhaver**, Hunter Charvat, Amy Bruckman, Cliff Lampe, Jacob Eisenstein, and Eric Gilbert, *“The Internet's Hidden Rules: An Empirical Study of Reddit Norm Violations at Micro, Meso, and Macro Scales,”* In Proceedings of the ACM Human-Computer Interaction (CSCW 2018), doi: [`10.1145/3274301`](https://doi.org/10.1145/3274301)
+
+---
+
+[TOC]
+
+---
+
+## Important links
+
+- [Paper (preprint)](/files/research/chandrasekharan-2018-norms.pdf)
+
+
+## Abstract
+
+Norms are central to how online communities are governed. Yet, norms are also emergent, arise from interaction, and can vary significantly between communities—making them challenging to study at scale. In this paper, we study community norms on Reddit in a large-scale, empirical manner. Via 2.8M comments removed by moderators of 100 top subreddits over 10 months, we use both computational and qualitative methods to identify three types of norms: macro norms that are universal to most parts of Reddit; meso norms that are shared across certain groups of subreddits; and micro norms that are specific to individual, relatively unique subreddits. Given the size of Reddit’s user base—and the wide range of topics covered by different subreddits—we argue this represents the first large-scale study of norms across disparate online communities. In other words, these findings shed light on what Reddit values, and how widely-held those values are. We conclude by discussing implications for the design of new and existing online communities.
+
+
+## BibTeX citation
+
+```bibtex
+@article{Chandrasekharan:2018norms,
+    author = {Chandrasekharan, Eshwar and Samory, Mattia and Jhaver, Shagun and Charvat, Hunter and Bruckman, Amy and Lampe, Cliff and Eisenstein, Jacob and Gilbert, Eric},
+    title = {The Internet's Hidden Rules: An Empirical Study of Reddit Norm Violations at Micro, Meso, and Macro Scales},
+    journal = {Proc. ACM Hum.-Comput. Interact.},
+    year = {2018},
+    volume = {2},
+    articleno = {32},
+    url = {https://doi.org/10.1145/3274301},
+    doi = {10.1145/3274301},
+    publisher = {ACM},
+    }
+```

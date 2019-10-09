@@ -1,0 +1,44 @@
+---
+Title: "Human-Machine Collaboration for Content Regulation: The Case of Reddit Automoderator"
+Date: 2019-06-06
+Category: Article
+Slug: research/jhaver-2019-automod
+Template: research_project
+pdf: /files/research/jhaver-2019-automod.pdf
+Thumb: /files/images/research/jhaver-2019-automod.png
+medium: https://medium.com/acm-cscw/human-machine-collaboration-for-content-regulation-the-case-of-reddit-automoderator-b6f4408cdaef
+Details: >-
+  **Shagun Jhaver**, Iris Birman, Eric Gilbert and Amy Bruckman (2019) *“Human-Machine Collaboration for Content Regulation: The Case of Reddit Automoderator,”* ACM Transactions on Computer-Human Interaction (TOCHI), doi: [`10.1145/3338243`](https://doi.org/10.1145/3338243)
+---
+
+[TOC]
+
+---
+
+## Important links
+
+- [Paper (preprint)](/files/research/jhaver-2019-automod.pdf)
+- [Medium Blog that summarizes this paper](https://medium.com/acm-cscw/human-machine-collaboration-for-content-regulation-the-case-of-reddit-automoderator-b6f4408cdaef)
+
+
+## Abstract
+
+What one may say on the internet is increasingly controlled by a mix of automated programs, and decisions made by paid and volunteer human moderators. On the popular social media site Reddit, moderators heavily rely on a configurable, automated program called ‘Automoderator’ (or ‘Automod’). How do moderators use Automod? What advantages and challenges does the use of Automod present? We participated as Reddit moderators for over a year, and conducted interviews with 16 moderators to understand the use of Automod in the context of the sociotechnical system of Reddit. Our findings suggest a need for audit tools to help tune the performance of automated mechanisms, a repository for sharing tools, and improving the division of labor between human and machine decision making. We offer insights that are relevant to multiple stakeholders — creators of platforms, designers of automated regulation systems, scholars of platform governance, and content moderators.
+
+
+## BibTeX citation
+
+```bibtex
+@article{Holikatti:2019,
+		author = {Jhaver, Shagun and Birman, Iris and Gilbert, Eric and Bruckman, Amy},
+		title = {Human-Machine Collaboration for Content Regulation: The Case of Reddit Automoderator},
+		journal = {ACM Trans. Comput.-Hum. Interact.},
+    year = {2019},
+    volume = {26}, 
+    number = {5},
+    url = {https://doi.org/10.1145/3338243},
+    doi = {10.1145/3338243},
+    publisher = {ACM},
+    }
+```
+

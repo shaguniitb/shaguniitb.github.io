@@ -1,0 +1,44 @@
+---
+Title: "Learning to Airbnb by Engaging in Online Communities ofPractice"
+Date: 2019-06-08
+Category: Article
+Slug: research/holikatti-2019-airbnb-lpp
+Template: research_project
+pdf: /files/research/holikatti-2019-airbnb-lpp.pdf
+Thumb: /files/images/research/holikatti-2019-airbnb-lpp.png
+medium: https://medium.com/@shagunjhaver/learning-to-airbnb-by-engaging-in-online-communities-of-practice-8e45491633a3
+Details: >-
+  Maya Holikatti, **Shagun Jhaver**, and Neha Kumar *“Learning to Airbnb by Engaging in Online Communities of Practice,”* In Proceedings of the ACM Human-Computer Interaction (CSCW 2019) (forthcoming), doi: [`10.1145/3359330`](https://doi.org/10.1145/3359330)
+
+---
+
+[TOC]
+
+---
+
+## Important links
+
+- [Paper (preprint)](/files/research/holikatti-2019-airbnb-lpp.pdf)
+- [Medium Blog that summarizes this paper](https://medium.com/@shagunjhaver/learning-to-airbnb-by-engaging-in-online-communities-of-practice-8e45491633a3)
+
+
+## Abstract
+
+Technological advances, combined with sustained, minimalist consumerism, have raised the popularity of sharing economy platforms like Airbnb and Uber. These platforms are considered to have disrupted traditional industries and revolutionized how consumers interact with their services. The Computer-SupportedCooperative Work (CSCW) community has researched various aspects of the sharing economy; however, it is unclear how novices grow into experts in its various instantiations. In this paper, we present a qualitative investigation of Airbnb hosts, and Facebook groups in which they participate, for an enriched understanding of their learning mechanisms. Drawing on the theory of Legitimate Peripheral Participation (LPP) [37],our findings highlight the learning mechanisms that enable novice hosts to transition from partaking in peripheral roles to becoming integrated members of their (Facebook) communities of practice. We also present recommendations for sharing economy platforms, micro-entrepreneurs, and the online communities that serve them both.
+
+
+## BibTeX citation
+
+```bibtex
+@article{Holikatti:2019,
+    author = {Holikatti, Maya and Jhaver, Shagun and Kumar, Neha},
+    title = {Learning to Airbnb by Engaging in Online Communities of Practice},
+    journal = {Proc. ACM Hum.-Comput. Interact.},
+    year = {2019},
+    volume = {3},
+    articleno = {228},
+    url = {https://doi.org/10.1145/3359330},
+    doi = {10.1145/3359330},
+    publisher = {ACM},
+    }
+```

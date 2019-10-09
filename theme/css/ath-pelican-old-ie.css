@@ -1,0 +1,39 @@
+.content {
+    padding: 2em 3em;
+    margin-left: 25%;
+    width: 75%;
+    z-index: 5;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 25%;
+    z-index: 1;
+}
+
+.sidebar .nav-list {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.sidebar .nav-list li {
+    display: inline;
+    font-size: 1.1em;
+    margin-right: 1em
+}
+
+.footer {
+    width: 75%;
+    text-align: center;
+    float: right;
+    height: 180px;
+    font-size: 1.05em;
+    background: #333333;
+    color: #ffffff;
+}
+
+.footer .links li {
+    display: inline;
+}

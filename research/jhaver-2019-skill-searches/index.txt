@@ -1,0 +1,40 @@
+---
+Title: "Measuring Professional Skill Development in U.S. Cities Using Internet Search Queries"
+Date: 2019-07-10
+Category: Conference Paper
+Slug: research/jhaver-2019-skill-searches
+Template: research_project
+pdf: /files/research/jhaver-2019-skill-searches.pdf
+Thumb: /files/images/research/jhaver-2019-skill-searches.png
+Details: >-
+  **Shagun Jhaver**, Justin Cranshaw, and Scott Counts, *“Measuring Professional Skill Development in U.S. Cities Using Internet Search Queries.“* In Proceedings of the 13th International AAAI Conference on Web and Social Media (ICWSM 2019)., doi: [10.1145/3359294](https://doi.org/10.1145/3359294)
+---
+
+[TOC]
+
+---
+
+## Important links
+
+- [Paper (preprint)](/files/research/jhaver-2019-skill-searches.pdf)
+
+
+## Abstract
+
+Using a sample of 10 million skill development-related queries from a popular internet search engine, drawn from almost 400 U.S. cities and over a 5 year period (2012 - 2016), we characterize the skills people search for across these cities, and relate them to measures of economic output, including GDP and unemployment. Findings show that differences in the amount, type, and specialization of skill development searches distinguish economically thriving cities from those that are struggling, including explaining variance in future GDP growth after accounting for socioeconomic demograph- ics such as income and poverty levels. Overall, internet-based skill development appears to contribute to rich cities getting richer, with initially well-off cities seeing more and more spe- cialized skill-related searching that in turn aligns with future economic growth.
+
+## BibTeX citation
+
+```bibtex
+@article{Jhaver:2019Survey,
+    author = {Jhaver, Shagun and Appling, Darren Scott and Bruckman, Amy and Gilbert, Eric},
+    title = {``Did You Suspect the Post Would be Removed?'': Understanding User Reactions to Content Removals on Reddit},
+    journal = {Proc. ACM Hum.-Comput. Interact.},
+    year = {2019},
+    volume = {3},
+    articleno = {192},
+    url = {https://doi.org/10.1145/3359294},
+    doi = {10.1145/3359294},
+    publisher = {ACM},
+    }
+```
