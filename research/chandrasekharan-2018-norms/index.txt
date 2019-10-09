@@ -1,6 +1,6 @@
 ---
 Title: "Learning to Airbnb by Engaging in Online Communities ofPractice"
-Date: 2018-08-01
+Date: 2018-09-01
 Category: Article
 Slug: research/chandrasekharan-2018-norms
 Template: research_project

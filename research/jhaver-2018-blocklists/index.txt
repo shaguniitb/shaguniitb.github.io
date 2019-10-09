@@ -1,6 +1,6 @@
 ---
 Title: "Online Harassment and Content Moderation: The Case of Blocklists"
-Date: 2019-06-06
+Date: 2018-12-06
 Category: Article
 Slug: research/jhaver-2018-blocklists
 Template: research_project

@@ -5,15 +5,36 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://github.com/shaguniitb/shaguniitb.github.io.git/</loc>
-<lastmod>2019-10-09T10:12:37-00:00</lastmod>
+<lastmod>2019-10-09T19:21:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://github.com/shaguniitb/shaguniitb.github.io.git/feed.json</loc>
-<lastmod>2019-10-09T10:12:37-00:00</lastmod>
+<lastmod>2019-10-09T19:21:31-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://github.com/shaguniitb/shaguniitb.github.io.git/research/jhaver-2014-edit-distance/</loc>
+<lastmod>2014-07-10T00:00:00-04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://github.com/shaguniitb/shaguniitb.github.io.git/research/jhaver-2017-cmv/</loc>
+<lastmod>2014-07-10T00:00:00-04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://github.com/shaguniitb/shaguniitb.github.io.git/research/de-choudhury-2016-blm/</loc>
+<lastmod>2016-07-10T00:00:00-04:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -32,13 +53,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://github.com/shaguniitb/shaguniitb.github.io.git/research/jhaver-2018-kia/</loc>
-<lastmod>2018-06-06T00:00:00-04:00</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://github.com/shaguniitb/shaguniitb.github.io.git/talks/</loc>
 <lastmod>2018-06-12T00:00:00-04:00</lastmod>
 <changefreq>weekly</changefreq>
@@ -47,14 +61,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://github.com/shaguniitb/shaguniitb.github.io.git/research/chandrasekharan-2018-norms/</loc>
-<lastmod>2018-08-01T00:00:00-04:00</lastmod>
+<lastmod>2018-09-01T00:00:00-04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://github.com/shaguniitb/shaguniitb.github.io.git/research/jhaver-2018-kia/</loc>
+<lastmod>2018-10-06T00:00:00-04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://github.com/shaguniitb/shaguniitb.github.io.git/research/jhaver-2018-airbnb/</loc>
+<lastmod>2018-11-06T00:00:00-05:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://github.com/shaguniitb/shaguniitb.github.io.git/research/jhaver-2018-blocklists/</loc>
-<lastmod>2019-06-06T00:00:00-04:00</lastmod>
+<lastmod>2018-12-06T00:00:00-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://github.com/shaguniitb/shaguniitb.github.io.git/research/jhaver-2019-skill-searches/</loc>
+<lastmod>2019-05-10T00:00:00-04:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -90,13 +125,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://github.com/shaguniitb/shaguniitb.github.io.git/welcome-to-my-site/</loc>
 <lastmod>2019-06-26T00:00:00-04:00</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://github.com/shaguniitb/shaguniitb.github.io.git/research/jhaver-2019-skill-searches/</loc>
-<lastmod>2019-07-10T00:00:00-04:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>

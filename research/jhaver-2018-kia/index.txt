@@ -1,6 +1,6 @@
 ---
 Title: "The view from the other side: The border between controversial speech and harassment on Kotaku in Action"
-Date: 2018-06-06
+Date: 2018-10-06
 Category: Article
 Slug: research/jhaver-2018-kia
 Template: research_project
