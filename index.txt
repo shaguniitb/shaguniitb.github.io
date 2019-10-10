@@ -3,7 +3,7 @@ Title: Welcome to My Site
 Date: 2019-06-26
 save_as: index.html
 Template: home
-main_photo: /files/images/photos/beach.JPG
+main_photo: /files/images/photos/Shagun_Jhaver.JPG
 ---
 
 I am a PhD candidate studying Computer Science at [Georgia Tech](https://www.gatech.edu) in the [School of Interactive Computing](https://ic.gatech.edu). My advisors are Dr. Amy Bruckman and Dr. Eric Gilbert, and I am a member of the ELC Lab and comp.social Lab. 
