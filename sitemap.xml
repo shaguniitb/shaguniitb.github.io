@@ -5,15 +5,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://github.com/shaguniitb/shaguniitb.github.io.git/</loc>
-<lastmod>2019-10-10T11:57:48-00:00</lastmod>
+<lastmod>2019-10-12T00:25:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://github.com/shaguniitb/shaguniitb.github.io.git/feed.json</loc>
-<lastmod>2019-10-10T11:57:48-00:00</lastmod>
+<lastmod>2019-10-12T00:25:14-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://github.com/shaguniitb/shaguniitb.github.io.git/research/jhaver-2014-masters-thesis/</loc>
+<lastmod>2014-06-11T00:00:00-04:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -48,6 +55,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://github.com/shaguniitb/shaguniitb.github.io.git/teaching/</loc>
 <lastmod>2017-05-29T00:00:00-04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://github.com/shaguniitb/shaguniitb.github.io.git/research/jhaver-2018-understanding/</loc>
+<lastmod>2018-06-11T00:00:00-04:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -116,7 +130,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://github.com/shaguniitb/shaguniitb.github.io.git/research/jhaver-2016-postscholar/</loc>
+<lastmod>2019-06-11T00:00:00-04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://github.com/shaguniitb/shaguniitb.github.io.git/research/jhaver-2019-focus-theory/</loc>
+<lastmod>2019-06-11T00:00:00-04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://github.com/shaguniitb/shaguniitb.github.io.git/research/jhaver-2019-transparency/</loc>
+<lastmod>2019-06-11T00:00:00-04:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://github.com/shaguniitb/shaguniitb.github.io.git/research/jhaver-2019-workshop/</loc>
 <lastmod>2019-06-11T00:00:00-04:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>

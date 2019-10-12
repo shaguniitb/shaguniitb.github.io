@@ -26,15 +26,12 @@ Using a sample of 10 million skill development-related queries from a popular in
 ## BibTeX citation
 
 ```bibtex
-@article{Jhaver:2019Survey,
-    author = {Jhaver, Shagun and Appling, Darren Scott and Bruckman, Amy and Gilbert, Eric},
-    title = {``Did You Suspect the Post Would be Removed?'': Understanding User Reactions to Content Removals on Reddit},
-    journal = {Proc. ACM Hum.-Comput. Interact.},
+@inproceedings{Jhaver:2019Skills,
+    author = {Jhaver, Shagun and Cranshaw, Justin and Counts, Scott},
+    title = {``Measuring Professional Skill Development in U.S. Cities Using Internet Search Queries},
     year = {2019},
-    volume = {3},
-    articleno = {192},
-    url = {https://doi.org/10.1145/3359294},
-    doi = {10.1145/3359294},
-    publisher = {ACM},
+    booktitle={Proceedings of the International AAAI Conference on Web and Social Media},
+    volume={13},
+    number={01}    
     }
 ```

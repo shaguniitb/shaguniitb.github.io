@@ -1,0 +1,47 @@
+---
+Title: "PostScholar: Surfacing Social Signals in Google Scholar Search"
+Date: 2019-06-11
+Category: Poster
+Slug: research/jhaver-2016-postscholar
+Template: research_project
+pdf: /files/research/jhaver-2016-postscholar.pdf
+Details: >-
+  **Shagun Jhaver** (2016) *"PostScholar: Surfacing Social Signals in Google Scholar Search,"* In ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW 2019), [doi: 10.1145/2818052.2874314](http://doi.acm.org/10.1145/2818052.2874314)
+Extra: >-
+  [ACM Digital Library Link](https://dl.acm.org/citation.cfm?id=2874314)
+---
+
+[TOC]
+
+---
+
+## Important links
+
+- [Poster (Preprint)](/files/research/jhaver-2016-postscholar.pdf)
+- [ACM Digital Library Link](https://dl.acm.org/citation.cfm?id=2874314)
+
+## Abstract
+
+ PostScholar is a service that augments the results returned by Google Scholar, a search engine for academic citations. PostScholar detects the social media activity related to an article and displays that information on the search results page returned by Google Scholar. This enables Google Scholar users to interpret the social media impact of an article, in addition to the citation impact provided by Google Scholar. The PostScholar service is implemented as a browser extension, and can be deployed across a variety of devices.
+
+## BibTeX citation
+
+```bibtex
+@inproceedings{Jhaver2016Postscholar,
+ author = {Jhaver, Shagun and Chan, Larry and Soni, Sandeep},
+ title = {PostScholar: Surfacing Social Signals in Google Scholar Search},
+ booktitle = {Proceedings of the 19th ACM Conference on Computer Supported Cooperative Work and Social Computing Companion},
+ series = {CSCW '16 Companion},
+ year = {2016},
+ isbn = {978-1-4503-3950-6},
+ location = {San Francisco, California, USA},
+ pages = {17--20},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/2818052.2874314},
+ doi = {10.1145/2818052.2874314},
+ acmid = {2874314},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Twitter, commentary, social media},
+} 
+```
