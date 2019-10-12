@@ -896,7 +896,7 @@ li.project-revising {
     .content {
         padding: 2em 3em;
         margin-left: 25%;
-        max-width: 55em;
+        max-width: 65em;
 		z-index: 5;
 	}
 
@@ -923,9 +923,11 @@ li.project-revising {
         padding: 2em 1.5em;
 	}
 	
+
 	.home-image {
-	    display: none;
+	    width: 100%;
 	}
+
 
     .sidebar header {
         text-align: center;
