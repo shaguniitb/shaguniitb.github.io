@@ -10,7 +10,8 @@ I am a PhD candidate studying Computer Science at [Georgia Tech](https://www.gat
 
 I use both qualitative and quantitative methods to study online communities, social media, sharing economy platforms and search engines. My dissertation research informs the design of efficient and equitable content moderation systems. In the past, I have studied online harassment, blocking mechanisms, and human-machine collaboration for content regulation on Twitter and Reddit. My recent work evaluates platform decisions in the framework of Fairness, Accountability, Transparency and Ethics (FATE) model. 
 
+<!---
 ## I am on the academic job market!
 
 I’m looking for a job! I’d love to hear if you think I would be a good fit for your search! 
-
+-->
