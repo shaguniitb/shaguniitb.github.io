@@ -16,7 +16,7 @@ Details: >-
 
 ## Important links
 
-- [Paper (preprint)](/files/research/jhaver-2018-airbnb)
+- [Paper (preprint)](/files/research/jhaver-2018-airbnb.pdf)
 
 
 ## Abstract
