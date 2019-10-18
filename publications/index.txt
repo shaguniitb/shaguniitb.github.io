@@ -6,7 +6,7 @@ Template: publications
 Description: Shagun Jhaver studies content moderation on social media websites.
 ---
 
-My dissertation research builds a foundation for **designing fair and efficient content moderation** systems. I have contributed an in-depth description of how moderation systems on Twitter and Reddit are constituted and how they affect platform owners, content moderators, and end-users. I have also evaluated the effectiveness of different moderation strategies on the health of these platforms. By attending to the viewpoints and practices of different stakeholders, my research offers a holistic view of content moderation. This allows me to identify opportunities for improvements that are both meaningful for the end-users as well as feasible for the community managers to implement. 
+My dissertation research builds a foundation for **designing fair and efficient content moderation** systems. I have contributed in-depth descriptions of how moderation systems on Twitter and Reddit are constituted and how they affect platform owners, content moderators, and end-users. I have also evaluated the effectiveness of different moderation strategies on the health of these platforms. By attending to the viewpoints and practices of different stakeholders, my research offers a holistic view of content moderation. This allows me to identify opportunities for improvements that are both meaningful for the end-users as well as feasible for the community managers to implement. 
 
 Check out my [Medium Blog](https://medium.com/@shagunjhaver/) for summaries of my published work.
 

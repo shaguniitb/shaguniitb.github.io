@@ -6,7 +6,7 @@ Slug: research/jhaver-2016-postscholar
 Template: research_project
 pdf: /files/research/jhaver-2016-postscholar.pdf
 Details: >-
-  **Shagun Jhaver** (2016) *"PostScholar: Surfacing Social Signals in Google Scholar Search,"* In ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW 2019), [doi: 10.1145/2818052.2874314](http://doi.acm.org/10.1145/2818052.2874314)
+  **Shagun Jhaver** (2016) *"PostScholar: Surfacing Social Signals in Google Scholar Search,"* In ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW 2019), doi: [`10.1145/2818052.2874314`](http://doi.acm.org/10.1145/2818052.2874314)
 Extra: >-
   [ACM Digital Library Link](https://dl.acm.org/citation.cfm?id=2874314)
 ---
