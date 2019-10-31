@@ -9,6 +9,8 @@ Thumb: /files/images/research/jhaver-2019-automod.png
 medium: https://medium.com/acm-cscw/human-machine-collaboration-for-content-regulation-the-case-of-reddit-automoderator-b6f4408cdaef
 Details: >-
   **Shagun Jhaver**, Iris Birman, Eric Gilbert and Amy Bruckman (2019) *“Human-Machine Collaboration for Content Regulation: The Case of Reddit Automoderator,”* ACM Transactions on Computer-Human Interaction (TOCHI), doi: [`10.1145/3338243`](https://doi.org/10.1145/3338243)
+Extra: >-
+  PRESS: [MIT Technology Review](https://www.technologyreview.com/s/614654/reddits-automoderator-automod-catches-more-than-any-human-could-but-its-still-imperfect/)
 ---
 
 [TOC]
@@ -19,6 +21,7 @@ Details: >-
 
 - [Paper (preprint)](/files/research/jhaver-2019-automod.pdf)
 - [Medium Blog that summarizes this paper](https://medium.com/acm-cscw/human-machine-collaboration-for-content-regulation-the-case-of-reddit-automoderator-b6f4408cdaef)
+- PRESS: [MIT Technology Review](https://www.technologyreview.com/s/614654/reddits-automoderator-automod-catches-more-than-any-human-could-but-its-still-imperfect/)
 
 
 ## Abstract
