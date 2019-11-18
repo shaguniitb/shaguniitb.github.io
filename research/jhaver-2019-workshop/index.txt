@@ -4,9 +4,11 @@ Date: 2019-06-11
 Category: Workshop_organized
 Slug: research/jhaver-2019-workshop
 Template: research_project
+Thumb: /files/images/research/jhaver-2019-volunteer.png
+pdf: /files/research/jhaver-2019-volunteer.pdf
 link: https://sites.google.com/view/cscw2019modworkshop
 Details: >-
-  Charles Kiene, **Shagun Jhaver**, Eshwar Chandrasekharan, Bryan Dosono, Brianna Dym, Sarah Gilbert, Aaron Jiang, Kat Lo, Joseph Seering, Kenny Shores, and D. Yvette Woh (2019) *"Volunteer Work: Mapping the Future of Moderation Research,"* In ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW 2019).
+  Charles Kiene, **Shagun Jhaver**, Eshwar Chandrasekharan, Bryan Dosono, Brianna Dym, Sarah Gilbert, Aaron Jiang, Kat Lo, Joseph Seering, Kenny Shores, and Donghee Yvette Wohn (2019) *"Volunteer Work: Mapping the Future of Moderation Research,"* In ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW 2019), doi: [`10.1145/3311957.3359443`](http://doi.acm.org/10.1145/3311957.3359443)
 
 ---
 
@@ -17,6 +19,8 @@ Details: >-
 ## Important links
 
 - [Workshop Site](https://sites.google.com/view/cscw2019modworkshop)
+- [Paper (preprint)](/files/research/jhaver-2019-volunteer.pdf)
+- [ACM Digital Library](http://doi.acm.org/10.1145/3311957.3359443) 
 
 ## Abstract
 
