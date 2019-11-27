@@ -10,6 +10,8 @@ Pub_Status: Editor spotlight
 medium: https://medium.com/acm-cscw/online-harassment-and-content-moderation-the-case-of-twitter-blocklists-25f3ab588a4b
 Details: >-
   **Shagun Jhaver**, Sucheta Ghoshal, Eric Gilbert and Amy Bruckman (2018) *“Online Harassment and Content Moderation: The Case of Blocklists,”* ACM Transactions on Computer-Human Interaction (TOCHI), doi: [`10.1145/3185593`](https://doi.acm.org/10.1145/3185593)
+Extra: >-
+  PRESS: [Forbes](https://www.forbes.com/sites/fruzsinaeordogh/2018/07/31/why-republicans-werent-the-only-ones-shadow-banned-on-twitter/#435ba426434b/)
 
 ---
 
@@ -22,6 +24,7 @@ Details: >-
 - [Paper (preprint)](/files/research/jhaver-2018-blocklists.pdf)
 - [Medium Blog that summarizes this paper](https://medium.com/acm-cscw/online-harassment-and-content-moderation-the-case-of-twitter-blocklists-25f3ab588a4b)
 - [Editor's Spotlight for this paper](https://dl.acm.org/citation.cfm?id=3196696)
+- [Forbes](https://www.forbes.com/sites/fruzsinaeordogh/2018/07/31/why-republicans-werent-the-only-ones-shadow-banned-on-twitter/#435ba426434b/)
 
 
 ## Abstract
