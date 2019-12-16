@@ -8,7 +8,7 @@ main_photo: /files/images/photos/Shagun_Jhaver.JPG
 
 I am a PhD candidate studying Computer Science at [Georgia Tech](https://www.gatech.edu) in the [School of Interactive Computing](https://ic.gatech.edu). My advisors are [Dr. Amy Bruckman](https://www.cc.gatech.edu/fac/Amy.Bruckman/) and [Dr. Eric Gilbert](http://eegilbert.org).  
 
-My research is broadly in the area of social computing and human-computer interaction. My work converges concepts and methods from a variety of research areas, including computing, psychology, statistics, art and design, ethics, and economics. I use both qualitative and quantitative methods to study content moderation, human-machine collaboration, sharing economies, and the future of work. 
+My research is broadly in the area of social computing and human-computer interaction. My work converges concepts and methods from a variety of research areas, including computing, psychology, statistics, art and design, ethics, and economics. I use both qualitative and quantitative methods to study content moderation on social media websites, human-machine collaboration, sharing economies, and the future of work. 
 
 <!---
 
