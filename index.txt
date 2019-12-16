@@ -8,9 +8,11 @@ main_photo: /files/images/photos/Shagun_Jhaver.JPG
 
 I am a PhD candidate studying Computer Science at [Georgia Tech](https://www.gatech.edu) in the [School of Interactive Computing](https://ic.gatech.edu). My advisors are [Dr. Amy Bruckman](https://www.cc.gatech.edu/fac/Amy.Bruckman/) and [Dr. Eric Gilbert](http://eegilbert.org).  
 
-I use both qualitative and quantitative methods to study content moderation, human-machine collaboration, sharing economies and the future of work. My dissertation research informs the design of efficient and equitable content moderation systems. Previously, I have studied online harassment, blocking mechanisms, and human-machine mixed-initiative content moderation on Twitter and Reddit. My recent work evaluates platform decisions in the framework of Fairness, Accountability, Transparency and Ethics (FATE) model. 
+My research is broadly in the area of social computing and human-computer interaction. My work converges concepts and methods from different research areas, including computing, psychology, statistics, art and design, ethics, and economics. I use both qualitative and quantitative methods to study content moderation, human-machine collaboration, sharing economies, and the future of work. 
 
 <!---
+
+My dissertation research informs the design of efficient and equitable content moderation systems. In earlier stages of my dissertation work, I studied online harassment, blocking mechanisms, and human-machine mixed-initiative content moderation on Twitter and Reddit. My recent work evaluates the effectiveness of community-wide moderation interventions and examines platform decisions in the framework of Fairness, Accountability, Transparency and Ethics (FATE) model. 
 
 ## I am on the academic job market!
 
