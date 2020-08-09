@@ -1,0 +1,10 @@
+---
+Title: Privacy
+Date: 2019-09-10
+Slug: privacy
+Template: privacy
+Description: Privacy Policy
+---
+
+
+
