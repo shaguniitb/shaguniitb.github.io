@@ -1,0 +1,36 @@
+---
+Title: "Does Platform Migration Compromise Content Mod- eration? Evidence from r/The_Donald and r/Incels"
+Date: 2021-03-25
+Category: Article
+Slug: research/ribeiro-2021-migrations
+Template: research_project
+pdf: /files/research/ribeiro-2021-migrations.pdf
+Thumb: /files/images/research/ribeiro-2021-migrations.png
+Details: >-
+  Manoel Horta Ribeiro, **Shagun Jhaver**, Savvas Zannettou, Jeremy Blackburn, Emiliano De Cristofaro, Gianluca Stringhini, and Robert West., *“Does Platform Migration Compromise Content Moderation? Evidence from r/The_Donald and r/Incels,”* Accepted with Minor Revision at Proceedings of the ACM Human-Computer Interaction (CSCW 2021).
+---
+
+[TOC]
+
+---
+
+## Important links
+
+- [Paper (preprint)](/files/research/ribeiro-2021-migrations.pdf)
+
+
+## Abstract
+
+
+When toxic online communities on mainstream platforms face moderation measures, such as bans, they may migrate to other platforms with laxer policies or set up their own dedicated website. Previous work suggests that, within mainstream platforms, community-level moderation is effective in mitigating the harm caused by the moderated communities. It is, how- ever, unclear whether these results also hold when considering the broader Web ecosystem. Do toxic communities continue to grow in terms of user base and activity on their new platforms? Do their members become more toxic and ideologically radicalized? In this paper, we report the results of a large-scale observational study of how problematic online communities progress following community-level moderation measures. We analyze data from r/The_Donald and r/Incels, two communities that were banned from Reddit and subsequently migrated to their own standalone websites. Our results suggest that, in both cases, moderation measures significantly decreased posting activity on the new platform, reducing the number of posts, active users, and newcomers. In spite of that, users in one of the stud- ied communities (r/The_Donald) showed increases in signals associated with toxicity and radicalization, which justifies concerns that the reduction in activity may come at the expense of a more toxic and radical commu- nity. Overall, our results paint a nuanced portrait of the consequences of community-level moderation and can inform their design and deployment.
+
+## BibTeX citation
+
+```bibtex
+@inproceedings{Ribeiro:2019Skills,
+    author = {Ribeiro, Manoel Horta and Jhaver, Shagun and Zannettou, Savvas and Blackburn, Jeremy and De Cristofaro, Emiliano and Stringhini, Gianluca and West, Robert},
+    title = {Does Platform Migration Compromise Content Moderation? Evidence from r/The\_Donald and r/Incels},
+    year = {2021},
+    booktitle={CSCW}   
+    }
+```
