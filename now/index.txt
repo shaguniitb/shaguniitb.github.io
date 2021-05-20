@@ -8,8 +8,9 @@ Description: Shagun Jhaver is working on a bunch of exciting and groundbreaking 
 
 As of May 15, 2021, I'm spending my time on these things:
 
-* Preparing to move to New Brunswick, NJ to start my new job at Rutgers SCI.
 * Working from the beautiful UW campus for the first time since I moved to Seattle back in August.
 * Checking out the hiking spots close to my place in Seattle over the weekends.
+* Building a system to address the content moderation needs of YouTube creators.
 * Collaborating with some amazing folks at [UC Berkeley](https://www.berkeley.edu), [Max Planck Institute](https://www.mpi-sws.org), [UC Davis](https://www.ucdavis.edu) and [Twitch](https://www.twitch.tv) on really exciting projects.
+* Preparing to move to New Brunswick, NJ to start my new job at Rutgers SCI.
 * Reading [Pigs have Wings](https://www.amazon.com/Pigs-Have-Wings-P-Wodehouse/dp/1585670596) by P. G. Wodehouse. 
