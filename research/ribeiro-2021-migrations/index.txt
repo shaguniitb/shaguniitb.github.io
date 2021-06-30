@@ -7,7 +7,7 @@ Template: research_project
 pdf: /files/research/ribeiro-2021-migrations.pdf
 Thumb: /files/images/research/ribeiro-2021-migrations.png
 Details: >-
-  Manoel Horta Ribeiro, **Shagun Jhaver**, Savvas Zannettou, Jeremy Blackburn, Emiliano De Cristofaro, Gianluca Stringhini, and Robert West., *“Does Platform Migration Compromise Content Moderation? Evidence from r/The_Donald and r/Incels,”* Accepted with Minor Revision at Proceedings of the ACM Human-Computer Interaction (CSCW 2021).
+  Manoel Horta Ribeiro, **Shagun Jhaver**, Savvas Zannettou, Jeremy Blackburn, Emiliano De Cristofaro, Gianluca Stringhini, and Robert West., *“Does Platform Migration Compromise Content Moderation? Evidence from r/The_Donald and r/Incels,”* In Proceedings of the ACM Human-Computer Interaction (CSCW 2021).
 ---
 
 [TOC]
@@ -27,10 +27,11 @@ When toxic online communities on mainstream platforms face moderation measures, 
 ## BibTeX citation
 
 ```bibtex
-@inproceedings{Ribeiro:2019Skills,
+@article{Ribeiro:2021Migrations,
     author = {Ribeiro, Manoel Horta and Jhaver, Shagun and Zannettou, Savvas and Blackburn, Jeremy and De Cristofaro, Emiliano and Stringhini, Gianluca and West, Robert},
     title = {Does Platform Migration Compromise Content Moderation? Evidence from r/The\_Donald and r/Incels},
+    journal = {Proc. ACM Hum.-Comput. Interact.},
     year = {2021},
-    booktitle={CSCW}   
+    publisher = {ACM},
     }
 ```

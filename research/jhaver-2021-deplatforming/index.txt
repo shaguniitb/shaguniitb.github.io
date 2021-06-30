@@ -1,0 +1,38 @@
+---
+Title: "Evaluating the Effectiveness of Deplatforming as a Moderation Strategy on Twitter"
+authorshere: "Shagun Jhaver, Christian Boylston, Diyi Yang, Amy Bruckman"
+venue: "CSCW 2021"
+Date: 2021-06-30
+Category: Article
+Slug: research/jhaver-2021-deplatforming
+Template: research_project
+pdf: /files/research/jhaver-2021-deplatforming.pdf
+Thumb: /files/images/research/jhaver-2021-deplatforming.png
+Pub_Status: Accept with Minor Revision
+Details: >-
+  **Shagun Jhaver**, Christian Boylston, Diyi Yang, and Amy Bruckman, *“Evaluating the Effectiveness of Deplatforming as a Moderation Strategy on Twitter,”* In Proceedings of the ACM Human-Computer Interaction (CSCW 2021)
+---
+
+[TOC]
+
+---
+
+## Important links
+
+- [Paper (preprint)](/files/research/jhaver-2021-deplatforming.pdf)
+
+## Abstract
+
+Deplatforming refers to the permanent ban of controversial public figures with large followings on social media sites. In recent years, platforms like Facebook, Twitter and YouTube have deplatformed many offensive influencers to curb the spread of offensive speech. We present a case study of three high-profile influencers who were deplatformed on Twitter—Alex Jones, Milo Yiannopoulos, and Owen Benjamin. Working with over 49M tweets, we found that deplatforming significantly reduced the number of conversations about all three influencers on Twitter. Further, analyzing the Twitter-wide activity of these influencers’ supporters, we show that the overall activity and toxicity levels of supporters declined after deplatforming. We contribute a methodological framework to systematically examine the effectiveness of moderation interventions and discuss broader implications of using deplatforming as a moderation strategy.
+
+## BibTeX citation
+
+```bibtex
+@article{Jhaver:2021Deplatforming,
+    author = {Jhaver, Shagun and Boylston, Christian and Yang, Diyi and Bruckman, Amy},
+    title = {Evaluating the Effectiveness of Deplatforming as a Moderation Strategy on Twitter},
+    journal = {Proc. ACM Hum.-Comput. Interact.},
+    year = {2021},
+    publisher = {ACM},
+    }
+```
