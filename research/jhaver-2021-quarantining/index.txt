@@ -1,0 +1,38 @@
+---
+Title: "Quarantined! Examining the Effects of a Community-Wide Moderation Intervention on Reddit"
+authorshere: "Shagun Jhaver, Eshwar Chandrasekharan, Amy Bruckman, Eric Gilbert"
+venue: "TOCHI"
+Date: 2021-09-01
+Category: Article
+Slug: research/jhaver-2021-quarantining
+Template: research_project
+pdf: /files/research/jhaver-2021-quarantining.pdf
+Thumb: /files/images/research/jhaver-2021-quarantining.png
+Pub_Status: Minor Revision
+Details: >-
+  **Shagun Jhaver**\*, Eshwar Chandrasekharan\*, Amy Bruckman, and Eric Gilbert (2021), *“Quarantined! Examining the Effects of a Community-Wide Moderation Intervention on Reddit,”* (\* co-primary) Minor Revision at ACM Transactions on Computer-Human Interaction (TOCHI) 
+---
+
+[TOC]
+
+---
+
+## Important links
+
+- [Paper (preprint)](/files/research/jhaver-2021-quarantining.pdf)
+
+## Abstract
+
+Should social media platforms intervene when communities repeatedly break rules? What actions can they consider? In light of this hotly debated issue, platforms have begun experimenting with softer alternatives to outright bans. We examine one such intervention called quarantining, that impedes direct access to and promotion of controversial communities. Specifically, we present two case studies of what happened when Reddit quarantined the influential communities r/TheRedPill (TRP) and r/The_Donald (TD). Working with over 85M Reddit posts, we apply causal inference methods to examine the quarantine’s effects on TRP and TD. We find that the quarantine made it more difficult to recruit new members: new user influx to TRP and TD decreased by 79.5% and 58%, respectively. Despite quarantining, existing users’ misogyny and racism levels remained unaffected. We conclude by reflecting on the effectiveness of this design friction in limiting the influence of toxic communities and discuss broader implications for content moderation..
+
+## BibTeX citation
+
+```bibtex
+@article{Jhaver:2021Quarantining,
+    author = {Chandrasekharan, Eshwar and Jhaver, Shagun and Bruckman, Amy and Gilbert, Eric},
+    title = {Quarantined! Examining the Effects of a Community-Wide Moderation Intervention on Reddit},
+    journal = {ACM Trans. Comput.-Hum. Interact.},
+    year = {2021},
+    publisher = {ACM},
+    }
+```
