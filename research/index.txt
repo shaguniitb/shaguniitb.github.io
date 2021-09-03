@@ -1,8 +1,8 @@
 ---
 Title: Research 
 Date: 2016-08-31
-Slug: publications 
-Template: publications
+Slug: research 
+Template: research
 Description: Shagun Jhaver studies content moderation on social media websites.
 ---
 
