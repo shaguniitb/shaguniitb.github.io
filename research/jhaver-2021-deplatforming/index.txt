@@ -8,7 +8,8 @@ Slug: research/jhaver-2021-deplatforming
 Template: research_project
 pdf: /files/research/jhaver-2021-deplatforming.pdf
 Thumb: /files/images/research/jhaver-2021-deplatforming.png
-Pub_Status: Accept with Minor Revision
+Pub_Status: Published
+medium: https://medium.com/@shagunjhaver/evaluating-the-effectiveness-of-deplatforming-as-a-moderation-strategy-on-twitter-39a4265ccbe4
 Details: >-
   **Shagun Jhaver**, Christian Boylston, Diyi Yang, and Amy Bruckman, *“Evaluating the Effectiveness of Deplatforming as a Moderation Strategy on Twitter,”* In Proceedings of the ACM Human-Computer Interaction (CSCW 2021)
 ---
@@ -20,6 +21,9 @@ Details: >-
 ## Important links
 
 - [Paper (preprint)](/files/research/jhaver-2021-deplatforming.pdf)
+- [Medium Blog that summarizes this paper](https://medium.com/@shagunjhaver/evaluating-the-effectiveness-of-deplatforming-as-a-moderation-strategy-on-twitter-39a4265ccbe4)
+- [Poster](/files/research/jhaver-2021-deplatforming-poster.pdf)
+- [Video presentation](https://youtu.be/y7MuLgOeF-E)
 
 ## Abstract
 

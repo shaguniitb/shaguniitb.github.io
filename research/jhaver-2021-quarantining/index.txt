@@ -8,9 +8,9 @@ Slug: research/jhaver-2021-quarantining
 Template: research_project
 pdf: /files/research/jhaver-2021-quarantining.pdf
 Thumb: /files/images/research/jhaver-2021-quarantining.png
-Pub_Status: Minor Revision
+Pub_Status: Accepted
 Details: >-
-  **Shagun Jhaver**\*, Eshwar Chandrasekharan\*, Amy Bruckman, and Eric Gilbert (2021), *“Quarantined! Examining the Effects of a Community-Wide Moderation Intervention on Reddit,”* (\* co-primary) Minor Revision at ACM Transactions on Computer-Human Interaction (TOCHI) 
+  **Shagun Jhaver**\*, Eshwar Chandrasekharan\*, Amy Bruckman, and Eric Gilbert (2021), *“Quarantined! Examining the Effects of a Community-Wide Moderation Intervention on Reddit,”* (\* co-primary) Accepted at ACM Transactions on Computer-Human Interaction (TOCHI) 
 ---
 
 [TOC]
@@ -23,7 +23,7 @@ Details: >-
 
 ## Abstract
 
-Should social media platforms intervene when communities repeatedly break rules? What actions can they consider? In light of this hotly debated issue, platforms have begun experimenting with softer alternatives to outright bans. We examine one such intervention called quarantining, that impedes direct access to and promotion of controversial communities. Specifically, we present two case studies of what happened when Reddit quarantined the influential communities r/TheRedPill (TRP) and r/The_Donald (TD). Working with over 85M Reddit posts, we apply causal inference methods to examine the quarantine’s effects on TRP and TD. We find that the quarantine made it more difficult to recruit new members: new user influx to TRP and TD decreased by 79.5% and 58%, respectively. Despite quarantining, existing users’ misogyny and racism levels remained unaffected. We conclude by reflecting on the effectiveness of this design friction in limiting the influence of toxic communities and discuss broader implications for content moderation..
+Should social media platforms override a community’s self-policing when it repeatedly break rules? What actions can they consider? In light of this debate, platforms have begun experimenting with softer alternatives to outright bans. We examine one such intervention called quarantining, that impedes direct access to and promotion of controversial communities. Specifically, we present two case studies of what happened when Reddit quarantined the influential communities r/TheRedPill (TRP) and r/The_Donald (TD). Using over 85M Reddit posts, we apply causal inference methods to examine the quarantine’s effects on TRP and TD. We find that the quarantine made it more difficult to recruit new members: new user influx to TRP and TD decreased by 79.5% and 58%, respectively. Despite quarantining, existing users’ misogyny and racism levels remained unaffected. We conclude by reflecting on the effectiveness of this design friction in limiting the influence of toxic communities and discuss broader implications for content moderation.
 
 ## BibTeX citation
 
